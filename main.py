@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QGridLayout, QPu
 
 class Calculadora(QMainWindow):
     def __init__(self, parent = None):
+        # Estrutura basica para construir a tela principal
         super().__init__(parent)
         self.setWindowTitle('Calculadora')
         self.setFixedSize(400, 400)
